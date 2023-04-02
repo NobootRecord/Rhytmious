@@ -31,7 +31,7 @@ Copyright &copy; Ivan Movchan &lt;NobootRecord@mail.ru&gt;, 2023
 
 <div align="center">
 
-## [nobootrecord.codeberg.page](https://nobootrecord.codeberg.page)
+## [nobootrecord.github.io](https://nobootrecord.github.io)
 
 ![Rhytmious working under Windows 10](Stuff/Screenshot.png)
 
