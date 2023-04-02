@@ -32,7 +32,7 @@ Rhytmious (произносиццо как _ритмиас_) - это прост
 
 <div align="center">
 
-## [nobootrecord.codeberg.page](https://nobootrecord.codeberg.page)
+## [nobootrecord.github.io](https://nobootrecord.github.io)
 
 ![Rhytmious на Windows 10](Stuff/Screenshot.png)
 
