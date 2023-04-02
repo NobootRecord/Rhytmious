@@ -128,8 +128,8 @@ namespace Rhytmious
 
 		// Expand/shrink window
 
-		int winESCoeff = -4;
-		private void ConfigButton_Click(object sender, EventArgs e) { winESCoeff = -winESCoeff; WinExpandTimer.Enabled = true; }
+		int WinExpandCoeff = -4;
+		private void ConfigButton_Click(object sender, EventArgs e) { WinExpandCoeff = -WinExpandCoeff; WinExpandTimer.Enabled = true; }
 
 		private void MainForm_Load(object sender, EventArgs e)
 		{
@@ -153,8 +153,8 @@ namespace Rhytmious
 
 		private void WinExpandTimer_Tick(object sender, EventArgs e)
 		{
-			this.Height = this.Height + winESCoeff;
-			if (this.Height == this.MinimumSize.Height || this.Height == this.MaximumSize.Height) WinExpandTimer.Enabled = false;
+			this.Height = this.Height + WinExpandCoeff;
+			WinExpandTimer.Enabled = !(this.Height == this.MinimumSize.Height || this.Height == this.MaximumSize.Height);
 		}
 
 		private void MainForm_FormClosing(object sender, FormClosingEventArgs e)

@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using System.IO;
+using System.Diagnostics;
 
 namespace Rhytmious
 {
@@ -29,14 +30,24 @@ namespace Rhytmious
 			e.Cancel = true; this.Hide();
 		}
 
-		private void WebLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-		{
-			System.Diagnostics.Process.Start(WebLinkLabel.Text); // Open developer's website >:)))
-		}
-
 		private void OKButton_Click(object sender, EventArgs e)
 		{
 			this.Close();
+		}
+
+		private void AuthorLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+		{
+			Process.Start("https://nobootrecord.github.io");
+		}
+
+		private void SrcLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+		{
+			Process.Start("https://github.com/NobootRecord/Rhytmious");
+		}
+
+		private void LicenseLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+		{
+			Process.Start("https://github.com/NobootRecord/Rhytmious/blob/main/LICENSE");
 		}
 	}
 }
