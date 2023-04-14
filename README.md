@@ -23,7 +23,7 @@ Rhytmious is a simple and user-friendly metronome for Windows. It supports downb
 
 # License
 
-See [LICENSE](LICENSE) file for more details.
+Rhytmious and its source codes are distributed under the terms of MIT License. See [LICENSE](LICENSE) file for more details.
 
 # Copyright
 
